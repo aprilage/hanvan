@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    background: center / cover no-repeat url("../images/brickBackground.jpg");
+}
+
+#wrapper {
+    width: 60%;
+    padding: 3rem;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imageContainer {
+    margin: 0 auto;
+}
+img {
+    width: 80%;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+}
+
+
