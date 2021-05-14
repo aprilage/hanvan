@@ -1,30 +1,72 @@
-body {
-    height: 100vh;
-    background: center / cover no-repeat url("../images/brickBackground.jpg");
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap');
+
+/* CSS Reset
+============================================================== */
+body, button, fieldset, form, label, input, textarea, select, h1, h2, h3, p, a, ul, li, dt, dd {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    color: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
 }
 
+/* BASE 10
+====================================================================== */
+html {
+    font-size: 62.5%;
+}
+
+/* BODY 
+====================================================================== */
+body {
+    height: 100vh;
+    padding: 0 2rem;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* DEFAULTS 
+====================================================================== */
+h1 {
+    padding: 1rem;
+    font-size: 4rem;
+    margin: 2rem auto;
+}
+
+h2, #tableTitle > th {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: -0.15rem;
+    text-align: left;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.75);
+}
+
+/* Section Containers 
+====================================================================== */
+
 #wrapper {
-    width: 60%;
-    padding: 3rem;
-    background: #fff;
-    position: fixed;
+    width: 50%;
+    height: 65%;
+    background-color: rgba(250,250,250,.9);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    position: fixed;
+    box-shadow: 0 6px 6px -6px #777;
 }
 
-#imageContainer {
-    margin: 0 auto;
+section {
+    padding: 3rem;
+    overflow: hidden;
 }
+
 img {
-    width: 80%;
-    margin: 0 auto;
-    padding: .5rem;
+    width: 100%;
 }
-
-li {
-  list-style: none;
-  padding: 1rem;
-}
-
-
