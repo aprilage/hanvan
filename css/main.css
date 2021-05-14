@@ -2,7 +2,7 @@
 
 /* CSS Reset
 ============================================================== */
-body, button, fieldset, form, label, input, textarea, select, h1, h2, h3, p, a, ul, li, dt, dd {
+address, body, button, h1, h2, h3, p, a, ul, li, dt, dd {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -35,6 +35,7 @@ h1 {
     padding: 1rem;
     font-size: 4rem;
     margin: 2rem auto;
+    text-align: center;
 }
 
 h2, #tableTitle > th {
@@ -48,12 +49,21 @@ h2, #tableTitle > th {
     color: rgba(0, 0, 0, 0.75);
 }
 
+section > p, address {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+a {
+    color: #F1A260;
+}
+
 /* Section Containers 
 ====================================================================== */
 
 #wrapper {
     width: 50%;
-    height: 65%;
+    height: 75%;
     background-color: rgba(250,250,250,.9);
     top: 50%;
     left: 50%;
@@ -67,6 +77,8 @@ section {
     overflow: hidden;
 }
 
-img {
-    width: 100%;
+section > img {
+    max-width: 42rem;
+    margin: 0 auto;
+    background-color: rgb(245,221,183);
 }
