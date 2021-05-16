@@ -1,4 +1,11 @@
-@media screen and (max-width: 480px) {    
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px)
+and (orientation: portrait) {    
+    #wrapper {
+        width: 90%;
+    }
+
     h1 {
         font-size: 3rem;
     }
@@ -9,7 +16,5 @@
         text-align: center;
     }
 
-    #wrapper {
-        width: 90%;
-    }
+    
 }
