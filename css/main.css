@@ -31,25 +31,7 @@ body {
 
 /* DEFAULTS 
 ====================================================================== */
-h1 {
-    padding: 1rem;
-    font-size: 4rem;
-    margin: 2rem auto;
-    text-align: center;
-}
 
-
-section > p, address {
-    font-size: 2rem;
-    padding: 1rem;
-    font-weight: 300;
-    text-align: center;
-}
-
-a {
-    color: #66797d;
-    text-decoration: underline;
-}
 
 /* Section Containers 
 ====================================================================== */
